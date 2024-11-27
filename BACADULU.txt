@@ -1,0 +1,20 @@
+# github :
+enter folder PERSONALPROFILEWEBSITE
+open gitbash cmd
+inside gitbash type code
+
+## create a new repository on the command line :
+git init
+git config --global user.name "irfanbaihaki84"
+git config --global user.name "irfanbaihaki84@email.com"
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/irfanbaihaki84/PersonalProfileWebsite.git
+git push -u origin main
+
+## push an existing repository from the command line :
+git remote add origin https://github.com/irfanbaihaki84/PersonalProfileWebsite.git
+git branch -M main
+git push -u origin main
